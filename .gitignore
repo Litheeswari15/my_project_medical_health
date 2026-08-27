@@ -1,0 +1,17 @@
+# Local datasets and training artefacts
+dataset/
+HAM10000_images/
+HAM10000_metadata.csv
+*.keras
+*.h5
+
+# Local test data and generated files
+*.jpg
+*.jpeg
+*.png
+*.pdf
+*.db
+__pycache__/
+.venv/
+venv/
+*.pyc

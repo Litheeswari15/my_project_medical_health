@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+</head>
+<body>
+
+<h1>Prediction Result</h1>
+
+<p>Diabetic Retinopathy Stage: {{ dr }}</p>
+<p>Heart Disease: {{ heart }}</p>
+<p>Hypertension: {{ hyper }}</p>
+
+<br>
+
+<a href="/download?path={{ report }}">
+    <button>Download Report</button>
+</a>
+
+</body>
+</html>
